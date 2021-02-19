@@ -14,7 +14,7 @@ const DEFAULTS: ModuleOptions = {}
 
 const CONFIG_KEY = 'motions'
 
-const nuxtModule: Module<ModuleOptions> = function (moduleOptions) {
+const nuxtModule: Module<ModuleOptions> = function(moduleOptions) {
   const options = defu<ModuleOptions>(
     this.options[CONFIG_KEY],
     moduleOptions,
@@ -33,15 +33,14 @@ const nuxtModule: Module<ModuleOptions> = function (moduleOptions) {
     fileName: 'nuxt-use-motion.js'
   })
 }
-
 ;(nuxtModule as any).meta = require('../package.json')
 
 declare module '@nuxt/types' {
   interface NuxtConfig {
-    [CONFIG_KEY]?: ModuleOptions;
+    [CONFIG_KEY]?: ModuleOptions
   } // Nuxt 2.14+
   interface Configuration {
-    [CONFIG_KEY]?: ModuleOptions;
+    [CONFIG_KEY]?: ModuleOptions
   } // Nuxt 2.9 - 2.13
 }
 
