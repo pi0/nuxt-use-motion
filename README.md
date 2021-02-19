@@ -1,8 +1,8 @@
 # 🤹 nuxt-use-motion
 
-This module is a **Nuxt** implementation of the Vue Composables [**@vueuse/motion**](https://github.com/Tahul/vue-use-sound).
+This module is a **Nuxt** implementation of the Vue Composables [**@vueuse/motion**](https://github.com/vueuse/motion).
 
-For a better **understanding** of this **module**, you should check out the original [**composables page**](https://github.com/Tahul/vue-use-sound).
+For a better **understanding** of this **module**, you should check out the original [**composables page**](https://github.com/vueuse/motion).
 
 [🌍 **Documentation**](https://vue-use-motion.netlify.app)
 
@@ -12,18 +12,18 @@ For a better **understanding** of this **module**, you should check out the orig
 
 In order to use this module, you must have [@nuxt/composition-api](https://composition-api.nuxtjs.org/) setup in your project.
 
-Once you installed it, add `nuxt-use-sound` dependency to your project
+Once you installed it, add `nuxt-use-motion` dependency to your project
 
 ```bash
-yarn add nuxt-use-sound
+yarn add nuxt-use-motion
 ```
 
-Add `nuxt-use-sound` to the `modules` section of `nuxt.config.js`
+Add `nuxt-use-motion` to the `modules` section of `nuxt.config.js`
 
 ```js
 {
   // nuxt.config.js
-  modules: ["nuxt-use-sound"];
+  modules: ['nuxt-use-motion']
 }
 ```
 
