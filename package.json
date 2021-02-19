@@ -27,7 +27,10 @@
     "release": "yarn build && yarn test && standard-version && git push --follow-tags && npm publish"
   },
   "dependencies": {
-    "defu": "^2.0.4"
+    "defu": "^2.0.4",
+    "@nuxtjs/composition-api": "latest",
+    "@nuxtjs/vendor": "latest",
+    "@vueuse/motion": "latest"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "latest",
