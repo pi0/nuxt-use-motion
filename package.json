@@ -1,13 +1,18 @@
 {
-  "name": "nuxt-use-sound",
-  "version": "0.0.0",
-  "description": "",
+  "name": "nuxt-use-motion",
+  "version": "1..0.4",
+  "description": "🤹 A Nuxt module putting your components in motion",
   "keywords": [
     "nuxt",
     "module",
-    "nuxt-module"
+    "nuxt-module",
+    "vue",
+    "use",
+    "motion",
+    "popmotion",
+    "composable"
   ],
-  "repository": "github_repo",
+  "repository": "https://github.com/Tahul/nuxt-use-motion",
   "license": "MIT",
   "main": "dist/module.js",
   "types": "dist/module.d.ts",
