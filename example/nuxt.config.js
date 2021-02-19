@@ -1,5 +1,4 @@
 export default {
-  modules: [
-    '../src/module.ts'
-  ]
+  buildModules: ['@nuxtjs/composition-api'],
+  modules: ['../src/module.ts']
 }
