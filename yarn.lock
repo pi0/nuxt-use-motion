@@ -1939,9 +1939,9 @@
     vue-demi latest
 
 "@vueuse/motion@latest":
-  version "1.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@vueuse/motion/-/motion-1.0.0-beta.9.tgz#c1522ee89476161097a98026060859dd626a86aa"
-  integrity sha512-aDQpUdWm2eP0Ww7rzaABKPnWu66IruLvgAn9giKyj6vRsByVQ8xK1yulI7sqTFUvqp7Rifml3eYmq13TTmz/og==
+  version "1.0.0-beta.10"
+  resolved "https://registry.yarnpkg.com/@vueuse/motion/-/motion-1.0.0-beta.10.tgz#2bfcc1d1ba90a4b78af82f228d7da5569e507203"
+  integrity sha512-NZ71pbHHgm3YOaMyznnUNNlL4TUDYCX/PCT7NLxQnP1WBxb6rC77rpwxAHCbiZl7GOmzNDBkLNDRRnT3x3BuUw==
   dependencies:
     "@vueuse/core" "^4.1.1"
     popmotion "^9.1.0"
