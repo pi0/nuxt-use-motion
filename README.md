@@ -1,4 +1,4 @@
-# nuxt-use-motion
+# 🤹 nuxt-use-motion
 
 This module is a **Nuxt** implementation of the Vue Composables [**@vueuse/motion**](https://github.com/Tahul/vue-use-sound).
 
