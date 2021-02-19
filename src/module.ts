@@ -20,7 +20,6 @@ const nuxtModule: Module<ModuleOptions> = function(moduleOptions) {
     moduleOptions,
     DEFAULTS
   )
-  // const { nuxt } = this
 
   this.addTemplate({
     fileName: 'motions.js',
