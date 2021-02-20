@@ -4,7 +4,7 @@ This module is a **Nuxt** implementation of the Vue Composables [**@vueuse/motio
 
 For a better **understanding** of this **module**, you should check out the original [**composables page**](https://github.com/vueuse/motion).
 
-[🌍 **Documentation**](https://vue-use-motion.netlify.app)
+[🌍 **Documentation**](https://vueuse-motion.netlify.app)
 
 [👀 **Demos**](https://vue-use-motion-demo.netlify.app)
 
@@ -53,7 +53,7 @@ Configure your animations 🤹
 
 ## Usage
 
-In **addition** to the native [**@vueuse/motion**](https://vue-use-motion.netlify.app) features, the module allows you to **define** animations **presets** from your **nuxt.config.js**.
+In **addition** to the native [**@vueuse/motion**](https://vueuse-motion.netlify.app) features, the module allows you to **define** animations **presets** from your **nuxt.config.js**.
 
 Once **defined**, as shown above, those **animations** will be available using **directives**, available in **every component** of your **app**.
 
@@ -63,15 +63,15 @@ Once **defined**, as shown above, those **animations** will be available using *
 </template>
 ```
 
-To see more about how to **control** animations declared with **directives**, check out [**Directive Usage**](https://vue-use-motion.netlify.app/directive-usage).
+To see more about how to **control** animations declared with **directives**, check out [**Directive Usage**](https://vueuse-motion.netlify.app/directive-usage).
 
-To see more about what **properties** you can **animate**, check out [**Motion Properties**](https://vue-use-motion.netlify.app/motion-properties).
+To see more about what **properties** you can **animate**, check out [**Motion Properties**](https://vueuse-motion.netlify.app/motion-properties).
 
-To see more about how to **create** your own **animations** styles, check out [**Transition Properties**](https://vue-use-motion.netlify.app/transition-properties).
+To see more about how to **create** your own **animations** styles, check out [**Transition Properties**](https://vueuse-motion.netlify.app/transition-properties).
 
-To see more about what are **variants** and how you can **use** them, check out [**Variants**](https://vue-use-motion.netlify.app/variants).
+To see more about what are **variants** and how you can **use** them, check out [**Variants**](https://vueuse-motion.netlify.app/variants).
 
-To see more about how to **control** your declared **variants**, check out [**Motion Instance**](https://vue-use-motion.netlify.app/motion-instance).
+To see more about how to **control** your declared **variants**, check out [**Motion Instance**](https://vueuse-motion.netlify.app/motion-instance).
 
 ## Development
 
