@@ -6,7 +6,7 @@ For a better **understanding** of this **module**, you should check out the orig
 
 [🌍 **Documentation**](https://vueuse-motion.netlify.app)
 
-[👀 **Demos**](https://vue-use-motion-demo.netlify.app)
+[👀 **Demos**](https://vueuse-motion-demo.netlify.app)
 
 ## Setup
 
