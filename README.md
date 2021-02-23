@@ -31,21 +31,19 @@ Configure your animations 🤹
 
 ```js
 {
-  // nuxt.config.js
-  motion: {
-    directives: {
-      'pop-bottom': {
-        initial: {
-          scale: 0,
-          opacity: 0,
-          y: 100
-        },
-        visible: {
-          scale: 1,
-          opacity: 1,
-          y: 0
-        },
-      }
+  // app/motion.config.js
+  directives: {
+    'pop-bottom': {
+      initial: {
+        scale: 0,
+        opacity: 0,
+        y: 100
+      },
+      visible: {
+        scale: 1,
+        opacity: 1,
+        y: 0
+      },
     }
   }
 }
