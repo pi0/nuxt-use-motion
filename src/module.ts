@@ -12,13 +12,11 @@ export interface ModuleOptions {
 
 const DEFAULTS: ModuleOptions = {}
 
-const CONFIG_KEY = 'motions'
-const CONFIG_KEY2 = 'motion'
+const CONFIG_KEY = 'motion'
 
 const nuxtModule: Module<ModuleOptions> = async function (moduleOptions) {
   const options = defu<ModuleOptions>(
     this.options[CONFIG_KEY],
-    this.options[CONFIG_KEY2],
     moduleOptions,
     DEFAULTS
   )
@@ -26,12 +24,12 @@ const nuxtModule: Module<ModuleOptions> = async function (moduleOptions) {
   this.addTemplate({
     fileName: 'motion.config.js',
     src: resolve(__dirname, '../templates', 'motion.config.js'),
-    options
+    options,
   })
 
   this.addPlugin({
     src: resolve(__dirname, '../templates', 'motion.js'),
-    fileName: 'motion.js'
+    fileName: 'motion.js',
   })
 
   await this.addModule('@nuxtjs/composition-api')
