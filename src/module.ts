@@ -1,5 +1,5 @@
-import { Module } from '@nuxt/types'
-import { MotionVariants } from '@vueuse/motion'
+import type { Module } from '@nuxt/types'
+import type { MotionVariants } from '@vueuse/motion'
 import defu from 'defu'
 import { resolve } from 'path'
 
@@ -13,25 +13,30 @@ export interface ModuleOptions {
 const DEFAULTS: ModuleOptions = {}
 
 const CONFIG_KEY = 'motions'
+const CONFIG_KEY2 = 'motion'
 
-const nuxtModule: Module<ModuleOptions> = function(moduleOptions) {
+const nuxtModule: Module<ModuleOptions> = async function (moduleOptions) {
   const options = defu<ModuleOptions>(
     this.options[CONFIG_KEY],
+    this.options[CONFIG_KEY2],
     moduleOptions,
     DEFAULTS
   )
 
   this.addTemplate({
-    fileName: 'motions.js',
-    src: resolve(__dirname, '../templates', 'options.js'),
+    fileName: 'motion.config.js',
+    src: resolve(__dirname, '../templates', 'motion.config.js'),
     options
   })
 
   this.addPlugin({
-    src: resolve(__dirname, '../templates', 'plugin.js'),
-    fileName: 'nuxt-use-motion.js'
+    src: resolve(__dirname, '../templates', 'motion.js'),
+    fileName: 'motion.js'
   })
+
+  await this.addModule('@nuxtjs/composition-api')
 }
+
 ;(nuxtModule as any).meta = require('../package.json')
 
 declare module '@nuxt/types' {

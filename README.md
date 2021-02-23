@@ -10,20 +10,20 @@ For a better **understanding** of this **module**, you should check out the orig
 
 ## Setup
 
-In order to use this module, you must have [@nuxt/composition-api](https://composition-api.nuxtjs.org/) setup in your project.
-
 Once you installed it, add `nuxt-use-motion` dependency to your project
 
 ```bash
-yarn add nuxt-use-motion
+yarn add --dev nuxt-use-motion
+# or
+npm i -D nuxt-use-motion
 ```
 
-Add `nuxt-use-motion` to the `modules` section of `nuxt.config.js`
+Add `nuxt-use-motion` to the `buildModules` section of `nuxt.config.js`
 
 ```js
 {
   // nuxt.config.js
-  modules: ['nuxt-use-motion']
+  buildModules: ['nuxt-use-motion']
 }
 ```
 
@@ -32,7 +32,7 @@ Configure your animations 🤹
 ```js
 {
   // nuxt.config.js
-  motions: {
+  motion: {
     directives: {
       'pop-bottom': {
         initial: {
