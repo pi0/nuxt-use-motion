@@ -22,14 +22,13 @@
   ],
   "scripts": {
     "build": "siroc build",
-    "dev": "nuxt-ts example",
+    "dev": "nuxt example",
     "lint": "eslint --ext .js,.ts,.vue .",
     "release": "yarn build && yarn test && standard-version && git push --follow-tags && npm publish"
   },
   "dependencies": {
-    "@nuxtjs/composition-api": "latest",
-    "@nuxtjs/vendor": "latest",
-    "@vueuse/motion": "latest",
+    "@nuxtjs/composition-api": "^0.20.2",
+    "@vueuse/motion": "^1.0.4",
     "defu": "^2.0.4",
     "vue-demi": "^0.6.0"
   },
@@ -39,7 +38,6 @@
     "@babel/preset-typescript": "latest",
     "@nuxt/test-utils": "latest",
     "@nuxt/types": "latest",
-    "@nuxt/typescript-runtime": "latest",
     "@nuxtjs/eslint-config-typescript": "latest",
     "babel-eslint": "latest",
     "eslint": "latest",
