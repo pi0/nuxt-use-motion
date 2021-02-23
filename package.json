@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@nuxtjs/composition-api": "^0.20.2",
-    "@vueuse/motion": "^1.0.4",
+    "@vueuse/motion": "^1.0.5",
     "defu": "^2.0.4",
     "vue-demi": "^0.6.0"
   },

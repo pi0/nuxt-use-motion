@@ -2018,10 +2018,10 @@
     "@vueuse/shared" "4.2.2"
     vue-demi latest
 
-"@vueuse/motion@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@vueuse/motion/-/motion-1.0.4.tgz#b65920d3d989e52105dd83981cffcd96b43510b7"
-  integrity sha512-Wd9NYN73FZqiGkIhqUSBW47oyy8wlyZyV5xBfLrg/rzHt7vTzAVCU//yC65ukS1W/a/HE/K65LYhQCHQ4S8Cxw==
+"@vueuse/motion@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@vueuse/motion/-/motion-1.0.5.tgz#677b30aec696713acf639198a41f2c71a8718172"
+  integrity sha512-j9TAAS2eTrRaJ6zk2yEzxPEKVopjxu+CEEJGSrXhGyHY19KtJoKK4I5shZYdeJ0K8Zszu+MuTzVTrjhi7yXLUA==
   dependencies:
     "@vueuse/core" "^4.2.1"
     popmotion "^9.2.1"
