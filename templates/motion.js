@@ -1,7 +1,8 @@
 import { MotionPlugin } from '@vueuse/motion'
 import Vue from 'vue'
-import userOptions from './motion.config'
+import defu from 'defu'
+import appOptions from './motion.config'
 
-const options = Object.assign(<%= JSON.stringify(options) %>, userOptions)
+const options = defu(appOptions, <%= JSON.stringify(options, null, 2) %>)
 
 Vue.use(MotionPlugin, options)
