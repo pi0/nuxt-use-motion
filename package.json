@@ -30,7 +30,7 @@
     "@nuxtjs/composition-api": "latest",
     "@nuxtjs/vendor": "latest",
     "@vueuse/motion": "latest",
-    "defu": "^2.0.4",
+    "defu": "^6.1.2",
     "vue-demi": "^0.6.0"
   },
   "devDependencies": {
